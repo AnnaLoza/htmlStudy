@@ -7,12 +7,19 @@
     <body>
         <form>
             <p>
-                <label for="age">Возраст: </label>
-                <input type="number" step="10" min="1" max="100" value="10" id="age" name="age"/>
+                <label for="price">Цена: </label>
+                <input type="number" list="priceList"
+                    step="1000" min="3000" max="100000" value="10000" id="price" name="price"/>
             </p>
             <p>
                 <button type="submit">Отправить</button>
             </p>
         </form>
+
+        <datalist id="priceList">
+            <option value="15000" label="cheap" />
+            <option value="20000" />
+            <option value="25000" />
+        </datalist>
     </body>
 </html>
