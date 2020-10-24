@@ -2,12 +2,18 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Отправка файлов в HTML5</title>
+        <title>Элемент select в HTML5</title>
     </head>
     <body>
-        <form enctype="multipart/form-data" method="post" action="http://localhost:8080/postfile.php">
+        <form method="get">
             <p>
-                <input type="file" name="file" multiple />
+                <label for="phone">Выберите модель:</label>
+                <select id="phone" name="phone">
+                    <option value="iphone 6s">iPhone 6S</option>
+                    <option value="lumia 950">Lumia 950</option>
+                    <option value="nexus 5x">Nexus 5X</option>
+                    <option value="galaxy s7">Galaxy S7</option>
+                </select>
             </p>
             <p>
                 <input type="submit" value="Отправить" />
