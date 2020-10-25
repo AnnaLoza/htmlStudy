@@ -1,0 +1,10 @@
+-Создать фрейм с ресурсом https://translate.google.com/?hl=ru&view=home&op=translate&sl=en&tl=ru&text=home
+
+-Создать форму с полями hl=ru&view=home&op=translate&sl=en&tl=ru&text=home
+- hl - допустимые значения en || ru
+- view - home как дефолтный параметр и не изменяемый.
+- op -  translate как дефолтный параметр и не изменяемый.
+- sl - en || tu || uk 
+- tl - en || tu || uk 
+- text - который перевести максимум 50 символов!
+- В результате отправить эту форму методом GET на https://translate.google.com/
